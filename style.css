@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 100px 50px 1fr 100px;
+    height: 100vh;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #8FBB09;
+
+}
+
+main {
+    background-color: #FBCD26;
+}
+
+.options-section {
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+}
+
+.options-section {
+    height: 50px;
+    padding-top: 15px;
+}
+
+
+.image-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #8FBB09;
+    max-width: fit-content;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 2em;
+}
+
+.info-container {
+    text-align: center;
+}
+
+.horn-count {
+    display: flex;
+    align-content: center;
+}
+
+img {
+    display: block;
+    width: 200px;
+    max-height: 200px;
+    padding: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2em;
+}
+
+footer {
+    background-color: steelblue;
+}
+
+li {
+    background-color: #FA8F04;
+}
+
+h2 {
+font-family: 'Quicksand', sans-serif; 
+font-weight: bold;
+padding-top: 5px;
+padding-bottom: 15px;
+}
+
+h1 {
+font-family: 'Quicksand', sans-serif; 
+font-size: 50px;
+}
+
+/* p {
+font-family: 'Oxygen', sans-serif;
+} */
